@@ -1,0 +1,44 @@
+package com.mondorad.testserialization;
+
+message EmptyMsg{
+
+}
+
+message OneOfEach{
+ optional double d = 1;
+ optional float f = 2;
+ optional int32 i32 = 3;
+ optional int64 i64 = 4;
+ optional sint32 si32 = 5;
+ optional sint64 si64 = 6;
+ optional fixed32 f32 = 7;
+ optional fixed64 f64 = 8;
+ optional sfixed32 sf32 = 9;
+ optional sfixed64 sf64 = 10;
+ optional bool b = 11;
+ optional string s = 12;
+ optional bytes ba = 13;
+}
+
+message Message1{
+ optional int32 v = 1;
+}
+
+message Message2{
+ optional int32 v = 1;
+}
+
+message Message3{
+ optional int32 v = 4;
+}
+
+message AggregateMessage{
+ optional Message1 m1 = 1;
+ optional Message2 m2 = 2;
+ optional Message3 m3 = 3;
+}
+
+message AggregateMessages{
+ repeated AggregateMessage msgs = 1;
+}
+
