@@ -4,7 +4,7 @@ organization := "com.mondorad"
 
 version := "0.1-SNAPSHOT"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.11.7"
 
 resolvers ++= Seq(
   "Typesafe Releases" at "http://repo.typesafe.com/typesafe/releases/",
@@ -13,8 +13,8 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play" % "2.3.7",
-  "com.typesafe.play" %% "play-test" % "2.3.7" % "test",
+  "com.typesafe.play" %% "play" % "2.3.9",
+  "com.typesafe.play" %% "play-test" % "2.3.9" % "test",
   "com.google.protobuf" % "protobuf-java" % "2.6.1",
   "com.google.code.findbugs" % "jsr305" % "3.0.0"
 )
