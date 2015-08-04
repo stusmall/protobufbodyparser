@@ -1,4 +1,6 @@
-# protobufbodyparser
+# protobufbodyparser 
+
+[![Build Status](https://travis-ci.org/stusmall/protobufbodyparser.svg?branch=master)](https://travis-ci.org/stusmall/protobufbodyparser)
 
 This library allows a Play project to easily parse requests who's body is enocded with Google's [protocol buffers](https://developers.google.com/protocol-buffers/).  It should be as simple as:
 
