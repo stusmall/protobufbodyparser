@@ -1,7 +1,7 @@
 language: scala
 
 jdk:
-  - oraclejdk
+  - oraclejdk8
 
 install:
   - wget https://protobuf.googlecode.com/files/protobuf-2.5.0.tar.gz
