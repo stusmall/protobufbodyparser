@@ -13,8 +13,8 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "com.typesafe.play" %% "play" % "2.3.9",
-  "com.typesafe.play" %% "play-test" % "2.3.9" % "test",
+  "com.typesafe.play" %% "play" % "2.3.10",
+  "com.typesafe.play" %% "play-test" % "2.3.10" % "test",
   "com.google.protobuf" % "protobuf-java" % "2.6.1",
   "com.google.code.findbugs" % "jsr305" % "3.0.0"
 )
